@@ -1,14 +1,29 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Top%20Bar/Top%20Bar.uss?fileID=7433441132597879392&amp;guid=ae51b1b2be34147b18287a443d8ca609&amp;type=3#Top Bar" />
     <ui:VisualElement name="top-bar" class="top-bar" style="flex-grow: 1; border-bottom-color: rgba(255, 255, 255, 0.24);">
-        <ui:VisualElement name="Left" class="left" style="flex-grow: 1;" />
-        <ui:VisualElement name="Center" class="center" style="flex-grow: 1;">
+        <ui:VisualElement name="Left" class="left">
+            <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Skull" class="skull" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Center" class="center" style="flex-grow: 1; flex-direction: row; flex-basis: 40%;">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Home" class="button" style="background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/Raster/Icons/Home.png?fileID=21300000&amp;guid=4ed2ff2d7613746a7a0b60a07003f7e4&amp;type=3#Home&apos;); -unity-background-scale-mode: scale-to-fit; -unity-slice-scale: 1px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Equipment" class="button" style="background-image: url(&apos;project://database/Assets/Raster/Icons/Helmet.png?fileID=21300000&amp;guid=0dcc768be5ff4429eb3c964ef1b6c978&amp;type=3#Helmet&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(188, 188, 188, 0);" />
             <ui:Button text="PLAY NOW" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" class="button central" />
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Currency" class="button selected" style="background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/Raster/Icons/Currency.png?fileID=21300000&amp;guid=c21e9cb9addd14921b778ed847ba1ad3&amp;type=3#Currency&apos;); -unity-background-scale-mode: scale-to-fit;" />
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Customise" class="button" style="background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/Raster/Icons/Customise.png?fileID=21300000&amp;guid=2d764956cebbc40d5b1c4652de516eba&amp;type=3#Customise&apos;); -unity-background-scale-mode: scale-to-fit;" />
         </ui:VisualElement>
-        <ui:VisualElement name="Right" class="right" style="flex-grow: 1;" />
+        <ui:VisualElement name="Right" class="right">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="settings" />
+            <ui:Label tabindex="-1" text="USERNAME" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Username" class="username" />
+            <ui:VisualElement name="Badge" class="badge" style="flex-grow: 1;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" />
+                <ui:Label tabindex="-1" text="242 SR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="String" class="string" />
+                <ui:VisualElement name="Arrow" class="arrow" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Coins" class="coins" style="flex-grow: 1;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon" />
+                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" name="String" class="string" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Spacer" style="flex-grow: 1; flex-basis: 50%;" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

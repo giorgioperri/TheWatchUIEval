@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/xRender.png?fileID=21300000&amp;guid=7fb048194a03d4a0781df7a6df7ea263&amp;type=3#xRender&apos;); -unity-background-scale-mode: scale-and-crop;" />
+</ui:UXML>

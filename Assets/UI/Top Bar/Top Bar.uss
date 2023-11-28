@@ -7,13 +7,22 @@
 }
 
 .left {
-    flex-basis: 25%;
-    flex-grow: 1;
+    flex-basis: 33%;
+    flex-direction: row;
+}
+
+.left .skull {
+    flex-basis: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Raster/Icons/Skull.png?fileID=21300000&guid=d8d416dfe78f64506a5d1d560c3b65cb&type=3#Skull');
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
 }
 
 .center {
-    flex-basis: 50%;
-    flex-grow: 1;
     overflow: visible;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -21,31 +30,35 @@
     align-self: auto;
     align-items: stretch;
     opacity: 1;
-}
-
-.right {
-    flex-grow: 1;
-    flex-basis: 25%;
+    display: flex;
+    flex-basis: 33%;
 }
 
 .center .button {
     max-width: none;
     flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: 10%;
-    margin-bottom: 2px;
+    flex-basis: 15%;
+    margin-bottom: 0;
     border-left-color: rgba(0, 0, 0, 0);
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    margin-top: 2px;
+    margin-top: 0;
     -unity-background-image-tint-color: rgb(156, 156, 156);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-bottom-width: 0;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .center .button.central {
     flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 40%;
     border-bottom-color: rgb(71, 255, 177);
     border-bottom-width: 3px;
     background-color: rgba(255, 255, 255, 0);
@@ -57,8 +70,150 @@
     margin-bottom: -2px;
     font-size: 150%;
     -unity-text-align: middle-center;
+    margin-top: 0;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .center .button.selected {
     -unity-background-image-tint-color: rgb(255, 255, 255);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.right {
+    flex-direction: row-reverse;
+    flex-basis: 33%;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+.right .settings {
+    background-image: url('project://database/Assets/Raster/Icons/Settings.png?fileID=21300000&guid=a673eccc46220445a9a37d86b5c3707a&type=3#Settings');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    height: 100%;
+    flex-basis: 10%;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.right .username {
+    -unity-text-align: middle-center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    font-size: 10px;
+    flex-basis: 15%;
+    height: 100%;
+    margin-top: 0;
+}
+
+.right .badge {
+    flex-basis: 20%;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.right .badge .icon {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Raster/Icons/Badge.png?fileID=21300000&guid=876e1d624e86b4c0791c211ffaaedbbc&type=3#Badge');
+    -unity-background-scale-mode: scale-to-fit;
+    padding-top: 0;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 30%;
+    margin-right: -20px;
+}
+
+.right .badge .arrow {
+    background-image: url('project://database/Assets/Raster/Icons/UpArrow.png?fileID=21300000&guid=599cd7f494c5b463d8847c6112b465fb&type=3#UpArrow');
+    min-width: 4px;
+    max-height: 3px;
+    justify-content: flex-start;
+    top: 46%;
+    left: -10%;
+    margin-left: 3px;
+}
+
+.right .badge .string {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    flex-basis: 68%;
+    margin-top: 0;
+    margin-left: 8px;
+}
+
+.right .coins .string {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    flex-basis: 70%;
+    margin-top: 0;
+}
+
+.right .coins {
+    flex-basis: 20%;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.right .coins .icon {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Raster/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    -unity-background-scale-mode: scale-to-fit;
+    padding-top: 0;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 30%;
+    margin-right: -20px;
+    -unity-background-image-tint-color: rgb(173, 173, 173);
+}
+
+.right .coins .string {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    flex-basis: 70%;
+    margin-top: 0;
+    margin-right: 18px;
+    margin-left: 7px;
 }
