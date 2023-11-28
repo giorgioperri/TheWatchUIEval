@@ -1,0 +1,64 @@
+.top-bar {
+    max-height: 8%;
+    flex-direction: row;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-bottom-width: 1px;
+    background-image: url('project://database/Assets/Raster/Black%20Gradient.png?fileID=21300000&guid=d8c2f65c20da24235a18362b3b5fff0e&type=3#Black Gradient');
+}
+
+.left {
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.center {
+    flex-basis: 50%;
+    flex-grow: 1;
+    overflow: visible;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: auto;
+    align-items: stretch;
+    opacity: 1;
+}
+
+.right {
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.center .button {
+    max-width: none;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 10%;
+    margin-bottom: 2px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-top: 2px;
+    -unity-background-image-tint-color: rgb(156, 156, 156);
+}
+
+.center .button.central {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50%;
+    border-bottom-color: rgb(71, 255, 177);
+    border-bottom-width: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Raster/Green%20Gradient.png?fileID=21300000&guid=3237d1ffafef94926a03ba8d227572ac&type=3#Green Gradient');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(71, 255, 177);
+    margin-bottom: -2px;
+    font-size: 150%;
+    -unity-text-align: middle-center;
+}
+
+.center .button.selected {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
