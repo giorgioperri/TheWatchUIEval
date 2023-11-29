@@ -1,0 +1,112 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Shop/ShopItems/ShopItems.uss?fileID=7433441132597879392&amp;guid=4d2b3d25069b245f1a90ecf33730980f&amp;type=3#ShopItems" />
+    <ui:VisualElement name="Wrapper" class="wrapper">
+        <ui:VisualElement name="itemWrapper" class="itemWrapper" style="flex-grow: 1;">
+            <ui:VisualElement name="ButtonWrapper" class="buttonWrapper" style="flex-grow: 1;">
+                <ui:VisualElement name="ItemButton" class="itemButton" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" />
+                    <ui:Label tabindex="-1" text="DOWNLOAD NOW" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemButton" class="itemButton first" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Label tabindex="-1" text="GET DATA" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ShopItem" class="ShopItem">
+                    <ui:VisualElement name="DescriptionWrapper" class="descriptionWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Bars" class="bars" style="flex-grow: 1;">
+                            <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:VisualElement class="barsSpacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="IconAndLabel" class="iconAndLabel" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:Label tabindex="-1" text="SKIN 001" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="IconAndPriceWrapper" class="iconAndPriceWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        <ui:VisualElement name="Thumbnail" class="thumbnail" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/SkinThumbnail.png?fileID=21300000&amp;guid=7860d7bb4294a43c0bccf8813659b6b4&amp;type=3#SkinThumbnail&apos;); -unity-background-scale-mode: scale-to-fit; overflow: visible; visibility: visible; opacity: 1; position: relative; width: 100%; height: 100%; -unity-slice-scale: -3.3px; -unity-slice-left: 17; -unity-slice-top: 20; -unity-slice-right: 17; -unity-slice-bottom: 20; top: 18%;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Price" class="price" style="flex-grow: 1;">
+                            <ui:VisualElement name="PriceWrapper" class="priceWrapper" style="flex-grow: 1;">
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonWrapper" class="buttonWrapper" style="flex-grow: 1;">
+                <ui:VisualElement name="ItemButton" class="itemButton" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" />
+                    <ui:Label tabindex="-1" text="DOWNLOAD NOW" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemButton" class="itemButton first" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Label tabindex="-1" text="GET DATA" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ShopItem" class="ShopItem">
+                    <ui:VisualElement name="DescriptionWrapper" class="descriptionWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Bars" class="bars" style="flex-grow: 1;">
+                            <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:VisualElement class="barsSpacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="IconAndLabel" class="iconAndLabel" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:Label tabindex="-1" text="SKIN 001" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="IconAndPriceWrapper" class="iconAndPriceWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        <ui:VisualElement name="Thumbnail" class="thumbnail" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/SkinThumbnail.png?fileID=21300000&amp;guid=7860d7bb4294a43c0bccf8813659b6b4&amp;type=3#SkinThumbnail&apos;); -unity-background-scale-mode: scale-to-fit; overflow: visible; visibility: visible; opacity: 1; position: relative; width: 100%; height: 100%; -unity-slice-scale: -3.3px; -unity-slice-left: 17; -unity-slice-top: 20; -unity-slice-right: 17; -unity-slice-bottom: 20; top: 18%;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Price" class="price" style="flex-grow: 1;">
+                            <ui:VisualElement name="PriceWrapper" class="priceWrapper" style="flex-grow: 1;">
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonWrapper" class="buttonWrapper active" style="flex-grow: 1;">
+                <ui:VisualElement name="ItemButton" class="itemButton" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" />
+                    <ui:Label tabindex="-1" text="DOWNLOAD NOW" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemButton" class="itemButton first" style="flex-grow: 1;">
+                    <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Label tabindex="-1" text="GET DATA" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ShopItem" class="ShopItem">
+                    <ui:VisualElement name="DescriptionWrapper" class="descriptionWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Bars" class="bars" style="flex-grow: 1;">
+                            <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:VisualElement class="barsSpacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="IconAndLabel" class="iconAndLabel" style="flex-grow: 1;">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:Label tabindex="-1" text="SKIN 001" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="IconAndPriceWrapper" class="iconAndPriceWrapper" style="flex-grow: 1;">
+                        <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        <ui:VisualElement name="Thumbnail" class="thumbnail" style="flex-grow: 1;">
+                            <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/SkinThumbnail.png?fileID=21300000&amp;guid=7860d7bb4294a43c0bccf8813659b6b4&amp;type=3#SkinThumbnail&apos;); -unity-background-scale-mode: scale-to-fit; overflow: visible; visibility: visible; opacity: 1; position: relative; width: 100%; height: 100%; -unity-slice-scale: -3.3px; -unity-slice-left: 17; -unity-slice-top: 20; -unity-slice-right: 17; -unity-slice-bottom: 20; top: 18%;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Price" class="price" style="flex-grow: 1;">
+                            <ui:VisualElement name="PriceWrapper" class="priceWrapper" style="flex-grow: 1;">
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

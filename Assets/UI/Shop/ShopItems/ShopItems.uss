@@ -1,0 +1,444 @@
+.wrapper {
+    flex-direction: column-reverse;
+    max-height: 23%;
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    overflow: visible;
+}
+
+.itemButton {
+    flex-basis: 20%;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: visible;
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    visibility: hidden;
+}
+
+.itemButton.first {
+    flex-basis: 20%;
+    background-color: rgba(255, 255, 255, 0.04);
+    overflow: visible;
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.itemButton.first Button {
+    background-image: url('project://database/Assets/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    -unity-slice-scale: 0;
+    padding-left: 1%;
+}
+
+.itemButton Button {
+    background-image: url('project://database/Assets/Icons/Grab.png?fileID=21300000&guid=a97acf14cd3f74bc7b09e41e34c1fb55&type=3#Grab');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    -unity-slice-scale: -0.5px;
+    padding-left: 1%;
+}
+
+.itemButton Label {
+    color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    font-size: 12px;
+}
+
+.buttonWrapper {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: -2%;
+}
+
+.ShopItem {
+    align-self: auto;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.13);
+    flex-grow: 1;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(255, 255, 255);
+    flex-direction: row;
+    overflow: visible;
+    flex-basis: 60%;
+}
+
+.itemWrapper {
+    flex-direction: row;
+    overflow: visible;
+}
+
+.descriptionWrapper {
+    flex-basis: 40%;
+}
+
+.bars {
+    flex-basis: 30%;
+    flex-direction: row;
+    margin-left: 1%;
+}
+
+.iconAndLabel {
+    flex-direction: row;
+    flex-basis: 70%;
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: stretch;
+}
+
+.iconAndLabel Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Helmet.png?fileID=21300000&guid=0dcc768be5ff4429eb3c964ef1b6c978&type=3#Helmet');
+    -unity-background-scale-mode: scale-to-fit;
+    min-width: 50px;
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    max-width: 50px;
+}
+
+.iconAndLabel Label {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    min-width: 40px;
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+}
+
+.barsSpacer {
+    flex-basis: 90%;
+}
+
+.bars Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Bars.png?fileID=21300000&guid=ab8f1d58e268d4567b05f51e56a32634&type=3#Bars');
+    -unity-background-scale-mode: scale-and-crop;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.iconAndPriceWrapper {
+    flex-basis: 60%;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.iconAndPriceWrapper .spacer {
+    flex-basis: 33%;
+}
+
+.iconAndPriceWrapper .thumbnail {
+    flex-basis: 34%;
+    overflow: visible;
+}
+
+.iconAndPriceWrapper .price {
+    flex-basis: 33%;
+}
+
+.priceWrapper {
+    flex-basis: 20%;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 20%;
+}
+
+.priceWrapper Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 33%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 100%;
+    translate: 0 0;
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+    -unity-slice-scale: -6px;
+}
+
+.priceWrapper Label {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 5%;
+    flex-basis: 77%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    min-width: 40px;
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+}
+
+.active .itemButton {
+    visibility: visible;
+    background-color: rgba(71, 255, 177, 0.2);
+}
+
+.active .itemButton.first {
+    flex-basis: 20%;
+    background-color: rgba(71, 255, 177, 0.04);
+    overflow: visible;
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.active .itemButton.first Button {
+    background-image: url('project://database/Assets/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    -unity-slice-scale: 0;
+    padding-left: 1%;
+}
+
+.active .ShopItem {
+    align-self: auto;
+    height: 100%;
+    background-color: rgba(71, 255, 177, 0.13);
+    flex-grow: 1;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(71, 255, 177);
+    flex-direction: row;
+    overflow: visible;
+    flex-basis: 60%;
+}
+
+.active .itemButton Button {
+    background-image: url('project://database/Assets/Icons/Grab.png?fileID=21300000&guid=a97acf14cd3f74bc7b09e41e34c1fb55&type=3#Grab');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    -unity-slice-scale: -0.5px;
+    padding-left: 1%;
+    -unity-background-image-tint-color: rgb(71, 255, 177);
+}
+
+.active .itemButton Label {
+    color: rgb(71, 255, 177);
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    font-size: 12px;
+}
+
+.active .iconAndLabel Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Helmet.png?fileID=21300000&guid=0dcc768be5ff4429eb3c964ef1b6c978&type=3#Helmet');
+    -unity-background-scale-mode: scale-to-fit;
+    min-width: 50px;
+    -unity-slice-left: 10;
+    -unity-slice-top: 10;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 10;
+    max-width: 50px;
+    -unity-background-image-tint-color: rgb(71, 255, 177);
+}
+
+.active .iconAndLabel Label {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    min-width: 40px;
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(71, 255, 177);
+}
+
+.active .bars Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Bars.png?fileID=21300000&guid=ab8f1d58e268d4567b05f51e56a32634&type=3#Bars');
+    -unity-background-scale-mode: scale-and-crop;
+    min-width: 50px;
+    max-width: 50px;
+    -unity-background-image-tint-color: rgb(71, 255, 177);
+}
+
+.active .priceWrapper Button {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-basis: 33%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 100%;
+    translate: 0 0;
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+    -unity-slice-scale: -6px;
+    -unity-background-image-tint-color: rgb(71, 255, 177);
+}
+
+.active .priceWrapper Label {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 5%;
+    flex-basis: 77%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    min-width: 40px;
+    -unity-text-align: middle-left;
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(71, 255, 177);
+}
