@@ -14,6 +14,8 @@
     -unity-background-image-tint-color: rgb(255, 255, 255);
     align-self: center;
     height: 60%;
+    transform-origin: left;
+    scale: 0.8 0.8;
 }
 
 .center {

@@ -14,7 +14,7 @@
 .left .skull {
     flex-basis: 24%;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url('project://database/Assets/Raster/Icons/Skull.png?fileID=21300000&guid=d8d416dfe78f64506a5d1d560c3b65cb&type=3#Skull');
+    background-image: url('project://database/Assets/Icons/Skull.png?fileID=21300000&guid=d8d416dfe78f64506a5d1d560c3b65cb&type=3#Skull');
     -unity-background-scale-mode: scale-to-fit;
     border-left-color: rgba(0, 0, 0, 0);
     border-right-color: rgba(0, 0, 0, 0);
@@ -53,6 +53,7 @@
     border-bottom-width: 0;
     margin-left: 2px;
     margin-right: 2px;
+    scale: 0.8 0.8;
 }
 
 .center .button.central {
@@ -68,11 +69,12 @@
     -unity-font-definition: initial;
     color: rgb(71, 255, 177);
     margin-bottom: -2px;
-    font-size: 150%;
+    font-size: 16px;
     -unity-text-align: middle-center;
     margin-top: 0;
     margin-right: 2px;
     margin-left: 2px;
+    scale: 1 1;
 }
 
 .center .button.selected {
@@ -93,7 +95,7 @@
 }
 
 .right .settings {
-    background-image: url('project://database/Assets/Raster/Icons/Settings.png?fileID=21300000&guid=a673eccc46220445a9a37d86b5c3707a&type=3#Settings');
+    background-image: url('project://database/Assets/Icons/Settings.png?fileID=21300000&guid=a673eccc46220445a9a37d86b5c3707a&type=3#Settings');
     -unity-background-scale-mode: scale-to-fit;
     background-color: rgba(0, 0, 0, 0);
     border-left-color: rgba(0, 0, 0, 0);
@@ -141,7 +143,7 @@
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    background-image: url('project://database/Assets/Raster/Icons/Badge.png?fileID=21300000&guid=876e1d624e86b4c0791c211ffaaedbbc&type=3#Badge');
+    background-image: url('project://database/Assets/Icons/Badge.png?fileID=21300000&guid=876e1d624e86b4c0791c211ffaaedbbc&type=3#Badge');
     -unity-background-scale-mode: scale-to-fit;
     padding-top: 0;
     padding-right: 40px;
@@ -152,7 +154,7 @@
 }
 
 .right .badge .arrow {
-    background-image: url('project://database/Assets/Raster/Icons/UpArrow.png?fileID=21300000&guid=599cd7f494c5b463d8847c6112b465fb&type=3#UpArrow');
+    background-image: url('project://database/Assets/Icons/UpArrow.png?fileID=21300000&guid=599cd7f494c5b463d8847c6112b465fb&type=3#UpArrow');
     min-width: 4px;
     max-height: 3px;
     justify-content: flex-start;
@@ -195,7 +197,7 @@
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    background-image: url('project://database/Assets/Raster/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
+    background-image: url('project://database/Assets/Icons/Coin.png?fileID=21300000&guid=38e4ffc65fbd043559d74e8870923c59&type=3#Coin');
     -unity-background-scale-mode: scale-to-fit;
     padding-top: 0;
     padding-right: 40px;

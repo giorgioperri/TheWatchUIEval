@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/SecondaryBar/SecondaryBar.uss?fileID=7433441132597879392&amp;guid=cc50dcb0d02d84e068de0c945d477175&amp;type=3#SecondaryBar" />
+    <Style src="project://database/Assets/UI/Shop/SecondaryBar/SecondaryBar.uss?fileID=7433441132597879392&amp;guid=cc50dcb0d02d84e068de0c945d477175&amp;type=3#SecondaryBar" />
     <ui:VisualElement name="SecondaryBar" class="secondarybar">
-        <ui:VisualElement name="Left" class="left" style="flex-grow: 0; flex-basis: 8%; background-color: rgba(255, 255, 255, 0.1);">
+        <ui:VisualElement name="Left" class="left" style="flex-grow: 0; flex-basis: 8%; background-color: rgba(255, 255, 255, 0.07);">
             <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Back" class="button" />
         </ui:VisualElement>
         <ui:VisualElement name="Center" class="center" style="flex-grow: 1; flex-basis: 84%;">

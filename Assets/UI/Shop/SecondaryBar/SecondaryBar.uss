@@ -4,7 +4,7 @@
 }
 
 .left .button {
-    background-image: url('project://database/Assets/Raster/Icons/Back.png?fileID=21300000&guid=28ba76189a41048efb89f4fd9332aebf&type=3#Back');
+    background-image: url('project://database/Assets/Icons/Back.png?fileID=21300000&guid=28ba76189a41048efb89f4fd9332aebf&type=3#Back');
     -unity-background-scale-mode: scale-and-crop;
     background-color: rgba(0, 0, 0, 0);
     height: 50%;
@@ -32,6 +32,7 @@
     -unity-font-definition: initial;
     font-size: 11px;
     flex-grow: 1;
+    margin-top: -1%;
 }
 
 .center .timer {

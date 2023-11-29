@@ -53,8 +53,8 @@
                             <ui:VisualElement class="barsSpacer" style="flex-grow: 1;" />
                         </ui:VisualElement>
                         <ui:VisualElement name="IconAndLabel" class="iconAndLabel" style="flex-grow: 1;">
-                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
-                            <ui:Label tabindex="-1" text="SKIN 001" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/SkinSet.png?fileID=21300000&amp;guid=5daabd2efb2a542c898b36b0ce4439ac&amp;type=3#SkinSet&apos;);" />
+                            <ui:Label tabindex="-1" text="SKIN SET" parse-escape-sequences="true" display-tooltip-when-elided="true" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                     <ui:VisualElement name="IconAndPriceWrapper" class="iconAndPriceWrapper" style="flex-grow: 1;">
@@ -65,7 +65,7 @@
                         <ui:VisualElement name="Price" class="price" style="flex-grow: 1;">
                             <ui:VisualElement name="PriceWrapper" class="priceWrapper" style="flex-grow: 1;">
                                 <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
-                                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                                <ui:Label tabindex="-1" text="800" parse-escape-sequences="true" display-tooltip-when-elided="true" />
                             </ui:VisualElement>
                             <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
                         </ui:VisualElement>
@@ -88,8 +88,8 @@
                             <ui:VisualElement class="barsSpacer" style="flex-grow: 1;" />
                         </ui:VisualElement>
                         <ui:VisualElement name="IconAndLabel" class="iconAndLabel" style="flex-grow: 1;">
-                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
-                            <ui:Label tabindex="-1" text="SKIN 001" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/Skin002.png?fileID=21300000&amp;guid=e1c9feeb48f5742a098f67eb71d1d63d&amp;type=3#Skin002&apos;);" />
+                            <ui:Label tabindex="-1" text="SKIN 002" parse-escape-sequences="true" display-tooltip-when-elided="true" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                     <ui:VisualElement name="IconAndPriceWrapper" class="iconAndPriceWrapper" style="flex-grow: 1;">
@@ -100,7 +100,7 @@
                         <ui:VisualElement name="Price" class="price" style="flex-grow: 1;">
                             <ui:VisualElement name="PriceWrapper" class="priceWrapper" style="flex-grow: 1;">
                                 <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" />
-                                <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                                <ui:Label tabindex="-1" text="200" parse-escape-sequences="true" display-tooltip-when-elided="true" />
                             </ui:VisualElement>
                             <ui:VisualElement name="Spacer" class="spacer" style="flex-grow: 1;" />
                         </ui:VisualElement>
