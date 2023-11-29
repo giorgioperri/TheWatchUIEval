@@ -1,3 +1,3 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/Char.png?fileID=21300000&amp;guid=0ed6ea8aafed54180930626a49ee7fac&amp;type=3#Char&apos;); -unity-background-scale-mode: scale-and-crop; top: 38px;" />
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Raster/CharShade.png?fileID=21300000&amp;guid=6a1c6c554b34c4617938b057a4669955&amp;type=3#CharShade&apos;); -unity-background-scale-mode: scale-and-crop; top: 38px;" />
 </ui:UXML>
