@@ -2,7 +2,6 @@
     <Style src="project://database/Assets/UI/Shop/SideBar/SideBar.uss?fileID=7433441132597879392&amp;guid=babd396f06e784db2bb155ca90503110&amp;type=3#SideBar" />
     <ui:VisualElement name="Wrapper" class="wrapper">
         <ui:VisualElement name="Left" class="left">
-            <ui:VisualElement name="Handle" class="handle" style="flex-grow: 1; margin-top: -3%;" />
             <ui:Button text="SKINS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Skins" class="button active" />
             <ui:Button text="BLOCKS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Blocks" class="button" />
         </ui:VisualElement>

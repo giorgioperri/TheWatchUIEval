@@ -294,7 +294,7 @@
     opacity: 1;
     transition-property: opacity, top;
     transition-duration: 0.25s, 0.25s;
-    transition-delay: 0.5s, 0.5s;
+    transition-delay: 0.4s, 0.4s;
     transition-timing-function: ease-in-out, ease;
     top: 0;
 }
@@ -305,7 +305,7 @@
     opacity: 1;
     transition-property: opacity, top;
     transition-duration: 0.25s, 0.25s;
-    transition-delay: 0.5s, 0.5s;
+    transition-delay: 0.25s, 0.25s;
     transition-timing-function: ease-in-out, ease;
     top: 0;
 }
@@ -321,7 +321,7 @@
     top: 0;
     transition-property: top, opacity;
     transition-duration: 0.25s, 0.25s;
-    transition-delay: 0.25s, 0.25s;
+    transition-delay: 0.15s, 0.15s;
     visibility: visible;
     opacity: 1;
 }
