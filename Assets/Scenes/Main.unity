@@ -293,7 +293,6 @@ GameObject:
   m_Component:
   - component: {fileID: 469706867}
   - component: {fileID: 469706868}
-  - component: {fileID: 469706869}
   m_Layer: 5
   m_Name: Top Bar
   m_TagString: Untagged
@@ -337,18 +336,6 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: fd39ef51b6cf74b45a6b67b2449eee03, type: 3}
   m_SortingOrder: 2
---- !u!114 &469706869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469706866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a34becc206c947f6a2dbbb61ddc2e70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &553365390
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840086608}
   - component: {fileID: 1840086609}
+  - component: {fileID: 1840086610}
   m_Layer: 5
   m_Name: ShopItems
   m_TagString: Untagged
@@ -864,6 +852,18 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 41c1110d2abf14780b4b8360b9cfe864, type: 3}
   m_SortingOrder: 6
+--- !u!114 &1840086610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840086607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199f3efeeb38c4731b2ab2fc8e6c4cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

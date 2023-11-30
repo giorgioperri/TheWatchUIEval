@@ -9,17 +9,17 @@
 
 .itemButton {
     flex-basis: 20%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.04);
     overflow: visible;
     display: flex;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     visibility: hidden;
+    opacity: 0;
+    top: 40%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
 }
 
 .itemButton.first {
@@ -31,6 +31,11 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
+    top: 20%;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .itemButton.first Button {
@@ -77,6 +82,17 @@
     margin-left: 2%;
     margin-bottom: 2%;
     margin-top: -2%;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.buttonWrapper:hover {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: -3%;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
 .ShopItem {
@@ -89,6 +105,20 @@
     flex-direction: row;
     overflow: visible;
     flex-basis: 60%;
+    transition-duration: 0.4s;
+}
+
+.buttonWrapper:hover .ShopItem {
+    align-self: auto;
+    height: 100%;
+    background-color: rgba(71, 255, 177, 0.13);
+    flex-grow: 1;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(71, 255, 177);
+    flex-direction: row;
+    overflow: visible;
+    flex-basis: 60%;
+    transition-duration: 0.4s;
 }
 
 .itemWrapper {
@@ -260,18 +290,40 @@
 
 .active .itemButton {
     visibility: visible;
+    background-color: rgba(71, 255, 177, 0.04);
+    opacity: 1;
+    transition-property: opacity, top;
+    transition-duration: 0.25s, 0.25s;
+    transition-delay: 0.5s, 0.5s;
+    transition-timing-function: ease-in-out, ease;
+    top: 0;
+}
+
+.active .itemButton:hover {
+    visibility: visible;
     background-color: rgba(71, 255, 177, 0.2);
+    opacity: 1;
+    transition-property: opacity, top;
+    transition-duration: 0.25s, 0.25s;
+    transition-delay: 0.5s, 0.5s;
+    transition-timing-function: ease-in-out, ease;
+    top: 0;
 }
 
 .active .itemButton.first {
     flex-basis: 20%;
-    background-color: rgba(71, 255, 177, 0.04);
     overflow: visible;
     display: flex;
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
+    top: 0;
+    transition-property: top, opacity;
+    transition-duration: 0.25s, 0.25s;
+    transition-delay: 0.25s, 0.25s;
+    visibility: visible;
+    opacity: 1;
 }
 
 .active .itemButton.first Button {

@@ -75,6 +75,31 @@
     margin-right: 2px;
     margin-left: 2px;
     scale: 1 1;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.center .button.central:hover {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 40%;
+    border-bottom-color: rgb(71, 255, 177);
+    border-bottom-width: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Raster/Green%20Gradient.png?fileID=21300000&guid=3237d1ffafef94926a03ba8d227572ac&type=3#Green Gradient');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/Fonts/D-DINExp-Bold.otf?fileID=12800000&guid=f31e5fb70d26c448e8c3d9a3e5469627&type=3#D-DINExp-Bold');
+    -unity-font-definition: initial;
+    color: rgb(71, 255, 177);
+    margin-bottom: -2px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    margin-top: 0;
+    margin-right: 2px;
+    margin-left: 2px;
+    scale: 1 1;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
 .center .button.selected {

@@ -72,7 +72,7 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="ButtonWrapper" class="buttonWrapper active" style="flex-grow: 1;">
+            <ui:VisualElement name="ButtonWrapper" class="buttonWrapper" style="flex-grow: 1;">
                 <ui:VisualElement name="ItemButton" class="itemButton" style="flex-grow: 1;">
                     <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" />
                     <ui:Label tabindex="-1" text="DOWNLOAD NOW" parse-escape-sequences="true" display-tooltip-when-elided="true" />
