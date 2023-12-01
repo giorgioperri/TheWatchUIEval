@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// This script is responsible for the shop items hover effect.
+/// </summary>
+
 public class ShopItems : MonoBehaviour
 {
     private UIDocument _document;
